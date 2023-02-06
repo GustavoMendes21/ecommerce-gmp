@@ -9,7 +9,18 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gray: {
+          950: "#171C22"
+        }
+      }
+    },
+    container: {
+      padding: {
+        DEFAULT: '8rem'
+      }
+    }
   },
   plugins: [],
 }
