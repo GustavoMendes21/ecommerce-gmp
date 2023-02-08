@@ -13,6 +13,9 @@ module.exports = {
       colors: {
         gray: {
           950: "#171C22"
+        },
+        red: {
+          950: "#FE2626"
         }
       }
     },

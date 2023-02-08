@@ -9,7 +9,7 @@ import WheelCategoryItem from '../../../assets/wheel-category-icon.svg';
 
 export function Navbar() {
   return (
-    <nav className="mb-2">
+    <nav className="pb-2">
       <ul className="flex items-center justify-center gap-12">
         <li className="w-36 flex flex-col items-center p-2 hover:bg-[#303944] hover:rounded hover:cursor-pointer">
           <Image src={CleanExteriorCategoryItem} width={40} alt="Limpeza Exterior"/>
