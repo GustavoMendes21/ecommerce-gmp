@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ecommerce-database: 
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "guga"
+    ports:
+      - "5432:5432"
+    volumes:
+      - ecommerce-database-volume:/var/lib/postgresql/data
+volumes:
+  ecommerce-database-volume:
